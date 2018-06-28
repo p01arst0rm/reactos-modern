@@ -1,8 +1,8 @@
 
 list(APPEND TEXTFILES
-    textfiles/ExtraLargeNormal.INI
-    textfiles/LargeFontsNormal.INI
-    textfiles/NormalNormal.INI)
+    textfiles/ExtraLargeLight.INI
+    textfiles/LargeFontsLight.INI
+    textfiles/NormalLight.INI)
 
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/textfiles)
 foreach(_file ${TEXTFILES})

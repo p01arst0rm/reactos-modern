@@ -2,24 +2,26 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 
 STRINGTABLE
 {
-1000, "White"
+1000, "Light"
+1001, "Dark"
 }
 
 STRINGTABLE
 {
-2000, "Modern White"
+2000, "Modern Light"
+2000, "Modern Dark"
 }
 
 STRINGTABLE
 {
-3000, "Normal"
+3000, "Regular Fonts"
 3001, "Large Fonts"
 3002, "Extra Large Fonts"
 }
 
 STRINGTABLE
 {
-4000, "Normal"
+4000, "Regular Fonts"
 4001, "Large Fonts"
 4002, "Extra Large Fonts"
 }
@@ -30,8 +32,8 @@ STRINGTABLE
 5001, "Visual Style"
 5002, "ReactOS Foundation"
 5003, "Pisarz, based on Luna Inspirat"
-5004, "Released under GNU/GPL 2.0, 2011"
+5004, "Released under GNU/GPL 3.0, 2018"
 5005, "http://www.reactos.org"
 5006, "1.0"
-5007, "Visual Style for ReactOS"
+5007, "Modern theme for ReactOS"
 }
