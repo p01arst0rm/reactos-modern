@@ -5,9 +5,7 @@ list(APPEND TEXTFILES
     textfiles/RegularLight.INI
     textfiles/ExtraLargeDark.INI
     textfiles/LargeFontsDark.INI
-    textfiles/RegularDark.INI
-    textfiles/Themes.INI
-    )
+    textfiles/RegularDark.INI)
 
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/textfiles)
 foreach(_file ${TEXTFILES})
