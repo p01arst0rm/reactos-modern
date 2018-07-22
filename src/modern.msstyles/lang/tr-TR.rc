@@ -3,11 +3,13 @@ LANGUAGE LANG_TURKISH, SUBLANG_DEFAULT
 STRINGTABLE
 {
 1000, "Beyaz"
+1001, "Beyaz"
 }
 
 STRINGTABLE
 {
 2000, "Beyaz modern"
+2001, "Beyaz modern"
 }
 
 STRINGTABLE
@@ -29,7 +31,7 @@ STRINGTABLE
 5000, "Lautus"
 5001, "Görmelik Biçim"
 5002, "ReactOS Vakfı"
-5003, "Pisarz, Luna Inspirat tabanlı"
+5003, "Pisarz, Win10 tabanlı"
 5004, "GNU/GPL 3.0 altında yayımlanmıştır, 2018"
 5005, "http://www.reactos.org"
 5006, "1.0"

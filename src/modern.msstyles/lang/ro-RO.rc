@@ -4,11 +4,13 @@ LANGUAGE LANG_ROMANIAN, SUBLANG_NEUTRAL
 STRINGTABLE
 {
 1000, "alb"
+1001, "alb"
 }
 
 STRINGTABLE
 {
 2000, "modern alb"
+2001, "modern alb"
 }
 
 STRINGTABLE
@@ -30,7 +32,7 @@ STRINGTABLE
 5000, "modern"
 5001, "Stil vizual"
 5002, "Fundația ReactOS"
-5003, "Pisarz, bazat pe Luna Inspirat"
+5003, "Pisarz, bazat pe win10"
 5004, "Publicat sub GNU/GPL 3.0, 2018"
 5005, "http://www.reactos.org"
 5006, "1.0"
