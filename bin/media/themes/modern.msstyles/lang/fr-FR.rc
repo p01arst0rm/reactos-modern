@@ -3,11 +3,13 @@ LANGUAGE LANG_FRENCH, SUBLANG_NEUTRAL
 STRINGTABLE
 {
 1000, "blanc"
+1001, "noir"
 }
 
 STRINGTABLE
 {
 2000, "modern blanc"
+2001, "modern noir"
 }
 
 STRINGTABLE
@@ -29,7 +31,7 @@ STRINGTABLE
 5000, "modern"
 5001, "Style Visuel"
 5002, "Fondation ReactOS"
-5003, "Pisarz, basé sur Luna Inspirat"
+5003, "Pisarz, basé sur win10"
 5004, "Distribué sous GNU/GPL 3.0, 2018"
 5005, "http://www.reactos.org"
 5006, "1.0"

@@ -4,13 +4,13 @@ LANGUAGE LANG_ROMANIAN, SUBLANG_NEUTRAL
 STRINGTABLE
 {
 1000, "alb"
-1001, "alb"
+1001, "beznă"
 }
 
 STRINGTABLE
 {
-2000, "modern alb"
-2001, "modern alb"
+2000, "modern luminos"
+2001, "modern beznă"
 }
 
 STRINGTABLE

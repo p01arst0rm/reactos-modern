@@ -3,13 +3,13 @@ LANGUAGE LANG_ITALIAN, SUBLANG_NEUTRAL
 STRINGTABLE
 {
 1000, "bianco"
-1001, "bianco"
+1001, "nero"
 }
 
 STRINGTABLE
 {
 2000, "bianco modern"
-2001, "bianco modern"
+2001, "nero modern"
 }
 
 STRINGTABLE

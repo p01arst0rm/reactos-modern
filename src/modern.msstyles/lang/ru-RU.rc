@@ -2,14 +2,14 @@ LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 
 STRINGTABLE
 {
-1000, "Ater"
-1001, "Ater"
+1000, "светлый"
+1001, "черный"
 }
 
 STRINGTABLE
 {
-2000, "Modern Ater"
-2001, "Modern Ater"
+2000, "Modern светлый"
+2001, "Modern черный"
 }
 
 STRINGTABLE

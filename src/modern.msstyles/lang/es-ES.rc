@@ -3,13 +3,13 @@ LANGUAGE LANG_SPANISH, SUBLANG_NEUTRAL
 STRINGTABLE
 {
 1000, "Blanco"
-1001, "bílý"
+1001, "oscuro"
 }
 
 STRINGTABLE
 {
 2000, "Blanco de Modern"
-2001, "Blanco de Modern"
+2001, "oscuro de Modern"
 }
 
 STRINGTABLE

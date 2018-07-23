@@ -2,14 +2,14 @@ LANGUAGE LANG_TURKISH, SUBLANG_DEFAULT
 
 STRINGTABLE
 {
-1000, "Beyaz"
-1001, "Beyaz"
+1000, "aydınlık"
+1001, "koyu"
 }
 
 STRINGTABLE
 {
-2000, "Beyaz modern"
-2001, "Beyaz modern"
+2000, "aydınlık modern"
+2001, "koyu modern"
 }
 
 STRINGTABLE

@@ -3,13 +3,13 @@ LANGUAGE LANG_FRENCH, SUBLANG_NEUTRAL
 STRINGTABLE
 {
 1000, "blanc"
-1001, "blanc"
+1001, "noir"
 }
 
 STRINGTABLE
 {
 2000, "modern blanc"
-2001, "modern blanc"
+2001, "modern noir"
 }
 
 STRINGTABLE
