@@ -3,13 +3,13 @@ LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 STRINGTABLE
 {
 1000, "светлый"
-1001, "черный"
+1001, "тёмный"
 }
 
 STRINGTABLE
 {
 2000, "Modern светлый"
-2001, "Modern черный"
+2001, "Modern тёмный"
 }
 
 STRINGTABLE
@@ -31,7 +31,7 @@ STRINGTABLE
 5000, "Modern"
 5001, "Визуальный Стиль"
 5002, "Команда ReactOS"
-5003, "Pisarz, основан на win10"
+5003, "Polar, основан на win10"
 5004, "Выпущен под GNU/GPL 3.0, 2018"
 5005, "http://www.reactos.org"
 5006, "1.0"
