@@ -3,13 +3,13 @@ LANGUAGE LANG_CZECH, SUBLANG_DEFAULT
 STRINGTABLE
 {
 1000, "Jasný"
-1001, "temný"
+1001, "Temný"
 }
 
 STRINGTABLE
 {
-2000, "modern Jasný"
-2001, "modern temný"
+2000, "Modern Jasný"
+2001, "Modern Temný"
 }
 
 STRINGTABLE
@@ -28,10 +28,10 @@ STRINGTABLE
 
 STRINGTABLE
 {
-5000, "modern"
+5000, "Modern"
 5001, "Motiv"
 5002, "Nadace ReactOS"
-5003, "Pisarz, založeno na win10"
+5003, "Polar, založeno na win10"
 5004, "Uvolněno pod licencí GNU/GPL 3.0, 2018"
 5005, "http://www.reactos.org"
 5006, "1.0"

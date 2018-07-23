@@ -2,14 +2,14 @@ LANGUAGE LANG_ITALIAN, SUBLANG_NEUTRAL
 
 STRINGTABLE
 {
-1000, "bianco"
-1001, "nero"
+1000, "Bianco"
+1001, "Nero"
 }
 
 STRINGTABLE
 {
-2000, "bianco modern"
-2001, "nero modern"
+2000, "Bianco Modern"
+2001, "Nero Modern"
 }
 
 STRINGTABLE
@@ -28,10 +28,10 @@ STRINGTABLE
 
 STRINGTABLE
 {
-5000, "modern"
+5000, "Modern"
 5001, "Stile di visualizzazione"
 5002, "ReactOS Foundation"
-5003, "Pisarz, basato on win10"
+5003, "Polar, basato on win10"
 5004, "Distribuito sotto licenza GNU/GPL 3.0, 2018"
 5005, "http://www.reactos.org"
 5006, "1.0"
