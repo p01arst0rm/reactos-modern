@@ -3,13 +3,13 @@ LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 STRINGTABLE
 {
 1000, "светлый"
-1001, "черный"
+1001, "тёмный"
 }
 
 STRINGTABLE
 {
 2000, "Modern светлый"
-2001, "Modern черный"
+2001, "Modern тёмный"
 }
 
 STRINGTABLE
