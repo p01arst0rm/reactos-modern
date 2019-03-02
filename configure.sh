@@ -8,6 +8,11 @@ mkdir() {
     rm -rf bin/
     mkdir bin/
     mkdir bin/media
+    mkdir bin/media/themes
+    mkdir bin/media/themes/modern.msstyles
+    mkdir bin/modules
+    mkdir bin/modules/wallpapers
+    mkdir bin/modules/wallpapers/Silhouette
 }
 
 main() {
