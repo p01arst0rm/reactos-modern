@@ -1,4 +1,4 @@
-@ECHO OFF
+@echo off 
 rem --------------------------------------------------------------------
 rem 
 rem Convert PNG Images to gif using gimp and it's script-fu capabilities
@@ -7,28 +7,38 @@ rem Usage:
 rem convert.cmd C:\path\to\tiff\directory
 rem --------------------------------------------------------------------
 
-set _dir=%~1
-set _gimp="C:\Program Files\GIMP 2\bin\gimp-console-2.10.exe"
 
-cd %_dir%
+set _gimp="C:\Program Files\GIMP 2\bin\gimp-console-2.10.exe"
 set count=1
 set max_count=0
-for /r %%i in (*.tif) DO (
-    set /a "max_count+=1"
+
+if not [%~1] == [] (
+        set _dir=%~1
+        call :main
+    	exit /B 0
 )
 
-for /r %%i in (*.tif) DO (
-    CALL :convert_file %%i
-    set /a "count+=1"    
-)
-cd %_dir%
+echo USAGE:
+echo .\configure.cmd "\path\to\TIF"
 exit /B 0
+
+
+:main (
+    for /r "%_dir%\" %%i in (*.tif) DO (
+        set /a "max_count+=1"
+    )
+    for /r "%_dir%\" %%i in (*.tif) DO (
+        CALL :convert_file %%i
+        set /a "count+=1"    
+    )
+	exit /B 0
+)
 
 :convert_file
     setlocal enabledelayedexpansion
-    set inp_dir=%~d1%~p1
+    set _target=%~d1%~p1
     rem replace \ in path for / (compatibility)
-    set inp_dir=!inp_dir:\=/!
+    set _target=!_target:\=/!
     set inp_file=%~n1.tif
     set out_file=%~n1.png
     
@@ -37,9 +47,9 @@ exit /B 0
     echo %out_file%
 
     set gimp_script=(let* ((img (car 
-    set gimp_script=%gimp_script% (file-tiff-load 1 \"%inp_dir%%inp_file%\" \"%inp_dir%%inp_file%\")))
+    set gimp_script=%gimp_script% (file-tiff-load 1 \"%_target%%inp_file%\" \"%_target%%inp_file%\")))
     set gimp_script=%gimp_script% (drawable (car (gimp-image-active-drawable img))))
-    set gimp_script=%gimp_script% (file-png-save 1 img drawable \"%out_dir%%out_file%\" \"%out_dir%%out_file%\" 1 0 0 0 0 0 0))
+    set gimp_script=%gimp_script% (file-png-save 1 img drawable \"%_target%%out_file%\" \"%_target%%out_file%\" 1 0 0 0 0 0 0))
     set gimp_script=%gimp_script% (gimp-quit 0))
     
     echo ""
