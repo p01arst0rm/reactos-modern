@@ -4,9 +4,18 @@ rem ------------------------------------------------------
 
 set _dir=%cd%
 
+:main
+	call :mkbin
+	call :mklang
+	call :mkwallpaper
+	exit /B 0
+
+
 :mkbin
+	echo [-] cleaning build directory..
     del /s /q "bin\"
 	rmdir /s /q "bin\"
+	echo [+] creating directory tree..
     mkdir "bin\"
     mkdir "bin\media"
     mkdir "bin\media\themes"
@@ -16,6 +25,16 @@ set _dir=%cd%
     mkdir "bin\modules\wallpapers\Silhouette"
     exit /B 0
 
-call :mkbin
+:mklang
+	echo [+] copying theme language files..
+	xcopy "%_dir%\src\modern.msstyles\lang"^
+	"%_dir%\bin\media\themes\modern.msstyles\lang\"
+	exit /B 0
 
-main
+:mkwallpaper
+	echo [+] copying theme wallpapers....
+	xcopy "%_dir%\src\wallpapers\Silhouette"^
+	"%_dir%\bin\modules\wallpapers\Silhouette"
+	type "%_dir%\src\wallpapers\CMakeLists.txt" ^
+	>> "%_dir%\bin\modules\wallpapers\CMakeLists.txt"
+	exit /B 0
