@@ -7,10 +7,10 @@ rem Usage:
 rem convert.cmd C:\path\to\tiff\directory
 rem --------------------------------------------------------------------
 
-set _dir=%cd%
+set _dir=%~1
 set _gimp="C:\Program Files\GIMP 2\bin\gimp-console-2.10.exe"
 
-cd %~1
+cd %_dir%
 set count=1
 set max_count=0
 for /r %%i in (*.tif) DO (
@@ -37,9 +37,9 @@ exit /B 0
     echo %out_file%
 
     set gimp_script=(let* ((img (car 
-    set gimp_script=%gimp_script% (file-tiff-load 1 \"%inp_dir%/%inp_file%\" \"%inp_dir%%inp_file%\")))
+    set gimp_script=%gimp_script% (file-tiff-load 1 \"%inp_dir%%inp_file%\" \"%inp_dir%%inp_file%\")))
     set gimp_script=%gimp_script% (drawable (car (gimp-image-active-drawable img))))
-    set gimp_script=%gimp_script% (file-png-save 1 img drawable \"%out_dir%/%out_file%\" \"%out_dir%%out_file%\" 1 0 0 0 0 0 0))
+    set gimp_script=%gimp_script% (file-png-save 1 img drawable \"%out_dir%%out_file%\" \"%out_dir%%out_file%\" 1 0 0 0 0 0 0))
     set gimp_script=%gimp_script% (gimp-quit 0))
     
     echo ""
