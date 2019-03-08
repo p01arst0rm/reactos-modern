@@ -76,7 +76,7 @@ exit /B 0
 	
 	echo [+] copying theme rc....
 	copy "%_dir%\src\themes\modern.msstyles\modern.rc" ^
-	"%_prefix%\media\themes\modern.msstyles\CMakeLists.rc"
+	"%_prefix%\media\themes\modern.msstyles\modern.rc"
 	
 	echo [+] updating reactos theme CMake....
 	type "%_dir%\src\wallpapers\CMakeLists.txt" ^
