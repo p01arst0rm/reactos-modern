@@ -1,0 +1,41 @@
+; TODO: IMPLEMENT THIS!!!
+; just placeholder info for now. disregard.
+
+[Theme]
+DisplayName=Modern
+[CLSID\{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX}\DefaultIcon]
+DefaultValue=%WinDir%explorer.exe,0
+[CLSID\{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX}\DefaultIcon]
+DefaultValue=%WinDir%SYSTEM32\mydocs.dll,0
+[CLSID\{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX}\DefaultIcon]
+DefaultValue=%WinDir%SYSTEM32\shell32.dll,17
+[CLSID\{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX}\DefaultIcon]
+full=%WinDir%SYSTEM32\shell32.dll,32
+empty=%WinDir%SYSTEM32\shell32.dll,31
+[Control Panel\Cursors]
+Arrow=
+Help=
+AppStarting=
+Wait=
+NWPen=
+No=
+Crosshair=
+IBeam=
+UpArrow=
+DefaultValue=Windows default
+DefaultValue.MUI=@themeui.dll,-2043
+[Control Panel\Desktop]
+Wallpaper=%WinDir%web\wallpaper\Zune.jpg
+TileWallpaper=0
+WallpaperStyle=2
+Pattern=(none)
+ScreenSaveActive=1
+[VisualStyles]
+Path=%ResourceDir%\Themes\modern\modern.msstyles
+ColorStyle = NormalColor
+Size = NormalSize
+[boot]
+SCRNSAVE.EXE=%WinDir%\System32\logon.scr
+[MasterThemeSelector]
+MTSM=DABJDKT
+ThemeColorBPP=8
