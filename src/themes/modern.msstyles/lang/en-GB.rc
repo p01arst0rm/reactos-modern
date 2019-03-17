@@ -2,13 +2,13 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
 
 STRINGTABLE
 {
-1000, "Blue"
+1000, "Light"
 1001, "Dark"
 }
 
 STRINGTABLE
 {
-2000, "Modern Blue"
+2000, "Modern Light"
 2001, "Modern Dark"
 }
 
