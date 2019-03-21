@@ -25,7 +25,7 @@ UpArrow=
 DefaultValue=Windows default
 DefaultValue.MUI=@themeui.dll,-2043
 [Control Panel\Desktop]
-Wallpaper=%WinDir%web\wallpaper\Zune.jpg
+Wallpaper=%WinDir%web\wallpaper\na.jpg
 TileWallpaper=0
 WallpaperStyle=2
 Pattern=(none)
